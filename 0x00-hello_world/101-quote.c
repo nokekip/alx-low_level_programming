@@ -2,7 +2,8 @@
 #include <unistd.h>
 /**
  * main - prints out last part of a quote in a standard error.
- * Return 1 if success.
+ *
+ * Return: 1 if success.
  */
 	int main (void)
 {
