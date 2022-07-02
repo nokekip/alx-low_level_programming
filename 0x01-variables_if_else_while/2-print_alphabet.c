@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cytpe.h>
 /**
  * main - Print alphabet in lowercase
  *
