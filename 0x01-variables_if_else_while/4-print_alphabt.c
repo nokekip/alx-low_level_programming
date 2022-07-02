@@ -7,7 +7,7 @@
 int main(void)
 {
 	char letter;
-
+	/*program*/
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		if (letter != 'e' && letter != 'q')
