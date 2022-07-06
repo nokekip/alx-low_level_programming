@@ -1,4 +1,5 @@
-include "main.h"
+#include <string.h>
+#include "main.h"
 
 /**
  * main - prints _putchar
@@ -10,14 +11,11 @@ include "main.h"
 
 int main(void)
 {
-	char text[9] = "_putchar";
-	int i = 0;
+	const char str[] = "_putchar\n";
+	int len = strlen(str);
+	int i;
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(text[i]);
-	}
-	_putchar('\n');
-
+	for (i = 0; i < len; i++)
+		_putchar(str[i]);
 	return (0);
 }
