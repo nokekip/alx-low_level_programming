@@ -1,9 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stdio.h>
-
-void positive_or_negative(int i);
+#include "main.h"
 
 /**
  * largest_number - returns the largest of 3 numbers
@@ -13,6 +8,14 @@ void positive_or_negative(int i);
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c);
+int largest_number(int a, int b, int c)
+{
+	int max;
 
-#endif /* MAIN_H */
+	max = a;
+	if (b > max)
+		max = b;
+	if (c > max)
+		max = c;
+	return (max);
+}
