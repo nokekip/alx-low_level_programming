@@ -26,4 +26,21 @@ int _isupper(int c);
  * Return: 1 (Success) 0 (Otherwise)
  */
 
+int _isdigit(int c);
+
+/**
+ * mul - Entry point
+ * @a: interger
+ * @b: integer
+ *
+ * Return: a x b
+ */
+int mul(int a, int b);
+
+/**
+ * print_numbers - print 0 - 9
+ *
+ * Return: void
+ */
+
 #endif /* main.h */
