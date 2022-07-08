@@ -43,4 +43,6 @@ int mul(int a, int b);
  * Return: void
  */
 
+void print_numbers(void);
+
 #endif /* main.h */
