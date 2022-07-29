@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _collac - allocate memory and set all values to 0
- * @nmamb: size
+ * _calloc - allocate memory and set all values to 0
+ * @nmemb: size
  * @size: sizeof(datatype)
- * Return: pointerr to coalloc'd string
+ * Return: pointer to calloc'd string
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -23,5 +23,4 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		*((char *)ptr + i) = 0;
 
 	return (ptr);
-
 }
